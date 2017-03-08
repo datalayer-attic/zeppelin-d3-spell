@@ -1,0 +1,16 @@
+{
+  "name": "zeppelin-d3-spell",
+  "description" : "D3.js Network Visualization for Apache Zeppelin",
+  "version": "0.0.1",
+  "main": "index",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "zeppelin-spell": "*",
+    "d3": "^4.7.1"
+  },
+  "spell": {
+    "magic": "%d3",
+    "usage": "%d3 <TEXT>"
+  }
+}
